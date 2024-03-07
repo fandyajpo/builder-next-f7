@@ -1,11 +1,9 @@
 import { Counter } from "@repo/ui";
 
-const Page = () => {
+export default function Counters() {
   return (
-    <main>
+    <div>
       <Counter />
-    </main>
+    </div>
   );
-};
-
-export default Page;
+}
